@@ -3,6 +3,20 @@ import { fontFamily, screens } from "tailwindcss/defaultTheme";
 export default {
   content: ["**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "2rem",
+        xl: "2rem",
+        "2xl": "2rem",
+      },
+      screens: {
+        ...screens,
+        "2xl": "1400px",
+      },
+    },
     extend: {
       colors: {
         background: "hsl(var(--background))",
