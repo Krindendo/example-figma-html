@@ -38,20 +38,26 @@
         Accelerate development with AI-driven speed from design to delivery
         faster than ever before.
       </p>
-      <div
-        id="request_early_access"
+      <form
+        id="request_early_access_top"
+        method="post"
         class="flex justify-center items-center flex-row gap-4 h-14"
       >
         <input
           class="rounded-lg h-full w-[410px] p-3 placeholder:text-[#919EAB] placeholder:text-sm bg-transparent border border-[#919EAB]"
+          name="email"
+          type="text"
+          id="test"
+          value=""
           placeholder="Enter your work email"
         />
         <button
+          type="submit"
           class="h-full p-2 rounded-lg bg-[#5B5AF7] w-[185px] text-sm font-semibold"
         >
           Request Early access
         </button>
-      </div>
+      </form>
     </main>
     <section
       class="container flex flex-col justify-center items-center gap-16 mb-36"
@@ -491,8 +497,9 @@
       <p class="text-xl font-semibold">
         Get early access to our free features.
       </p>
-      <div
+      <form
         id="request_early_access_bottom"
+        method="post"
         class="flex justify-center items-center flex-row gap-4 h-14"
       >
         <input
@@ -500,11 +507,12 @@
           placeholder="Enter your work email"
         />
         <button
+          type="submit"
           class="h-full p-2 rounded-lg bg-[#5B5AF7] w-[185px] text-sm font-semibold"
         >
           Request Early access
         </button>
-      </div>
+      </form>
     </section>
     <footer
       class="bg-[#333333] border-t p-10 mt-44 border-white text-white flex flex-row justify-between"
@@ -517,5 +525,12 @@
         </button>
       </div>
     </footer>
+
+    <template id="request_early_access_template">
+      <img src="/images/icon-checkmark-circle.svg" />
+      <p class="text-xl">
+        We got it! Keep an eye on your inbox for our official invite.
+      </p>
+    </template>
   </body>
 </html>
