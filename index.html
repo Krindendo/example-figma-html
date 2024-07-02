@@ -104,7 +104,7 @@
           class="flex rounded-3xl justify-center items-center bg-gradient-to-br p-[3px] from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
         >
           <div
-            class="flex flex-col rounded-3xl justify-center items-center bg-background w-full h-full"
+            class="flex flex-col rounded-3xl justify-between gap-5 bg-background w-full h-full"
           >
             <div
               class="bg-no-repeat w-full bg-contain aspect-[334/233]"
@@ -192,12 +192,14 @@
       class="flex flex-col justify-center items-center mx-28 gap-10 mb-36"
     >
       <h3 class="text-[32px] font-semibold">Uplift Your Delivery Squad</h3>
-      <div class="flex flex-row justify-center items-center gap-10 w-full h-80">
+      <div
+        class="flex flex-row justify-center items-center gap-10 w-full h-[315px]"
+      >
         <div
-          class="flex rounded-3xl justify-center items-center bg-gradient-to-br p-[3px] from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+          class="flex rounded-3xl justify-center items-center h-full bg-gradient-to-br p-[3px] from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
         >
           <div
-            class="flex flex-col p-4 rounded-3xl justify-center items-center bg-background w-full h-full"
+            class="flex flex-col p-5 rounded-3xl justify-around bg-background w-full h-full"
           >
             <img class="self-start" src="/images/section3-icon1.svg" />
             <p class="font-semibold text-xl">
@@ -212,10 +214,10 @@
           </div>
         </div>
         <div
-          class="flex rounded-3xl justify-center items-center bg-gradient-to-br p-[3px] from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+          class="flex rounded-3xl justify-center items-center bg-gradient-to-br p-[3px] h-full from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
         >
           <div
-            class="flex flex-col rounded-3xl justify-center items-center bg-background w-full h-full"
+            class="flex flex-col p-5 rounded-3xl justify-around bg-background w-full h-full"
           >
             <img class="self-start" src="/images/section3-icon2.svg" />
             <p class="font-semibold text-xl">
@@ -229,10 +231,10 @@
           </div>
         </div>
         <div
-          class="flex rounded-3xl justify-center items-center bg-gradient-to-br p-[3px] from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+          class="flex rounded-3xl justify-center items-center bg-gradient-to-br p-[3px] h-full from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
         >
           <div
-            class="flex flex-col rounded-3xl justify-center items-center bg-background w-full h-full"
+            class="flex flex-col p-5 rounded-3xl justify-around bg-background w-full h-full"
           >
             <img class="self-start" src="/images/section3-icon3.svg" />
             <p class="font-semibold text-xl">Less meetings more coding</p>
@@ -246,56 +248,123 @@
         </div>
       </div>
     </section>
-    <section
-      class="flex flex-col justify-center items-center mx-28 gap-16 mb-36"
-    >
-      <h3 class="font-medium text-xl">Behind Every Great Delivery:</h3>
-      <h3 class="text-[32px] font-semibold">The Collective Delivery Squad</h3>
+    <section class="flex flex-col justify-center items-center mx-28 mb-64">
+      <h3 class="font-medium text-xl mb-4">Behind Every Great Delivery:</h3>
+      <h3 class="text-[32px] font-semibold mb-24">
+        The Collective Delivery Squad
+      </h3>
       <ul class="grid grid-cols-3 grid-rows-2 gap-x-24 gap-y-20">
         <li class="flex flex-col justify-center items-center">
-          <img src="/images/section4-icon1.svg" />
-          <p class="font-semibold text-xl">Project Coordination</p>
-          <p>
+          <div class="flex relative w-20 h-20 mb-4">
+            <div
+              class="bg-background rounded-3xl h-full w-full flex justify-center items-center z-10"
+            >
+              <img class="h-[50px] w-[50px]" src="/images/section4-icon1.svg" />
+            </div>
+
+            <div
+              class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+            ></div>
+          </div>
+
+          <p class="font-semibold text-center text-xl mb-4">
+            Project Coordination
+          </p>
+          <p class="text-center">
             Ensure efficient planning, execution, and completion of projects,
             keeping them on schedule and within budget.
           </p>
         </li>
         <li class="flex flex-col justify-center items-center">
-          <img src="/images/section4-icon2.svg" />
-          <p class="font-semibold text-xl">Risk Management:</p>
-          <p>
+          <div class="flex relative w-20 h-20 mb-4">
+            <div
+              class="bg-background rounded-3xl h-full w-full flex justify-center items-center z-10"
+            >
+              <img class="h-[50px] w-[50px]" src="/images/section4-icon2.svg" />
+            </div>
+
+            <div
+              class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+            ></div>
+          </div>
+          <p class="font-semibold text-center text-xl mb-4">Risk Management:</p>
+          <p class="text-center">
             Proactively identify and mitigate risks to prevent delays and
             project failures.
           </p>
         </li>
         <li class="flex flex-col justify-center items-center">
-          <img src="/images/section4-icon3.svg" />
-          <p class="font-semibold text-xl">Communication</p>
-          <p>
+          <div class="flex relative w-20 h-20 mb-4">
+            <div
+              class="bg-background rounded-3xl h-full w-full flex justify-center items-center z-10"
+            >
+              <img class="h-[50px] w-[50px]" src="/images/section4-icon3.svg" />
+            </div>
+
+            <div
+              class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+            ></div>
+          </div>
+          <p class="font-semibold text-center text-xl mb-4">Communication</p>
+          <p class="text-center">
             They maintain open communication between teams and stakeholders,
             ensuring alignment and clarity on project goals.
           </p>
         </li>
         <li class="flex flex-col justify-center items-center">
-          <img src="/images/section4-icon4.svg" />
-          <p class="font-semibold text-xl">Strategic Alignment</p>
-          <p>
+          <div class="flex relative w-20 h-20 mb-4">
+            <div
+              class="bg-background rounded-3xl h-full w-full flex justify-center items-center z-10"
+            >
+              <img class="h-[50px] w-[50px]" src="/images/section4-icon4.svg" />
+            </div>
+
+            <div
+              class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+            ></div>
+          </div>
+          <p class="font-semibold text-center text-xl mb-4">
+            Strategic Alignment
+          </p>
+          <p class="text-center">
             They ensure projects align with and contribute to the organisation’s
             strategic objectives.
           </p>
         </li>
         <li class="flex flex-col justify-center items-center">
-          <img src="/images/section4-icon5.svg" />
-          <p class="font-semibold text-xl">Scope Management</p>
-          <p>
+          <div class="flex relative w-20 h-20 mb-4">
+            <div
+              class="bg-background rounded-3xl h-full w-full flex justify-center items-center z-10"
+            >
+              <img class="h-[50px] w-[50px]" src="/images/section4-icon5.svg" />
+            </div>
+
+            <div
+              class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+            ></div>
+          </div>
+          <p class="font-semibold text-center text-xl mb-4">Scope Management</p>
+          <p class="text-center">
             Changes in project scope or resources, adapting strategies to ensure
             successful outcomes.
           </p>
         </li>
         <li class="flex flex-col justify-center items-center">
-          <img src="/images/section4-icon6.svg" />
-          <p class="font-semibold text-xl">Quality Assurance</p>
-          <p>
+          <div class="flex relative w-20 h-20 mb-4">
+            <div
+              class="bg-background rounded-3xl h-full w-full flex justify-center items-center z-10"
+            >
+              <img class="h-[50px] w-[50px]" src="/images/section4-icon6.svg" />
+            </div>
+
+            <div
+              class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+            ></div>
+          </div>
+          <p class="font-semibold text-center text-xl mb-4">
+            Quality Assurance
+          </p>
+          <p class="text-center">
             Oversee project standards and quality, ensuring outputs meet or
             exceed expectations.
           </p>
