@@ -24,7 +24,7 @@
       </div>
     </header>
     <main
-      class="container mb-36 flex flex-col items-center justify-center gap-12"
+      class="container relative mb-36 flex flex-col items-center justify-center gap-12"
     >
       <h1 class="text-center text-[64px] font-bold leading-[80px]">
         Pioneering communication in
@@ -58,6 +58,12 @@
           Request Early access
         </button>
       </form>
+      <div
+        class="elipse absolute left-[-26rem] top-64 h-[700px] w-[700px]"
+      ></div>
+      <div
+        class="elipse absolute right-[-15rem] top-12 h-[700px] w-[700px]"
+      ></div>
     </main>
     <section
       class="container mb-36 flex flex-col items-center justify-center gap-16"
@@ -102,17 +108,23 @@
         Never waste more than a day handing over design requirements with these
         features:
       </h3>
-      <div class="grid w-full grid-cols-3 grid-rows-2 gap-10">
+      <div
+        class="grid w-full grid-cols-1 gap-10 md:grid-cols-3 md:grid-rows-[minmax(444px,_265px)_minmax(444px,_265px)]"
+      >
         <div
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col justify-between gap-5 rounded-3xl bg-background"
+            class="relative flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
           >
-            <div
-              class="aspect-[334/233] w-full bg-[url('/images/section2-frame1.svg')] bg-contain bg-no-repeat"
-            ></div>
-            <p class="text-2xl font-semibold">AI Process Map Generation</p>
+            <img
+              src="/images/section2-frame1.svg"
+              class="w-full"
+              alt="AI Process Map Generation"
+            />
+            <p class="mb-2 mt-7 text-2xl font-semibold">
+              AI Process Map Generation
+            </p>
             <p>
               Generate User Journeys and automate the Journey creation flow with
               AI
@@ -124,12 +136,14 @@
           class="col-span-2 flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col items-center justify-center rounded-3xl bg-background"
+            class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-10 text-center"
           >
-            <div
-              class="aspect-[687/284] w-full bg-[url('/images/section2-frame3.svg')] bg-contain bg-no-repeat"
-            ></div>
-            <p class="text-2xl font-semibold">
+            <img
+              src="/images/section2-frame2.svg"
+              class="w-full"
+              alt="Automatic AI Generated User Stories"
+            />
+            <p class="mb-2 mt-7 text-2xl font-semibold">
               Automatic AI Generated User Stories
             </p>
             <p>Create User Stories with AI based on your User Journeys.</p>
@@ -139,12 +153,16 @@
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col items-center justify-center rounded-3xl bg-background"
+            class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
           >
-            <div
-              class="aspect-[327/215] w-full bg-[url('/images/section2-frame3.svg')] bg-contain bg-no-repeat"
-            ></div>
-            <p class="text-2xl font-semibold">AI Test Case Generation</p>
+            <img
+              src="/images/section2-frame3.svg"
+              class="w-full"
+              alt="AI Test Case Generation"
+            />
+            <p class="mb-2 mt-7 text-2xl font-semibold">
+              AI Test Case Generation
+            </p>
             <p>
               Easily Sync your User Import Designs seamlessly to create
               Acceptance Criteria for every screen and each User Story.Stories,
@@ -156,28 +174,34 @@
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col items-center justify-center rounded-3xl bg-background"
+            class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background pt-7 text-center"
           >
-            <p class="text-2xl font-semibold">Import your Designs</p>
-            <p>
-              Import your designs from Figma seamlessly and use AI to narrate
-              your user flows.
-            </p>
-            <div
-              class="aspect-[356/310] w-full bg-[url('/images/section2-frame4.svg')] bg-contain bg-no-repeat"
-            ></div>
+            <div class="px-7">
+              <p class="text-2xl font-semibold">Import your Designs</p>
+              <p class="mb-7 mt-2">
+                Import your designs from Figma seamlessly and use AI to narrate
+                your user flows.
+              </p>
+            </div>
+            <img
+              src="/images/section2-frame4.svg"
+              class="w-full"
+              alt="Import your Designs"
+            />
           </div>
         </div>
         <div
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col items-center justify-center rounded-3xl bg-background"
+            class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
           >
-            <div
-              class="aspect-[274/260] w-full bg-[url('/images/section2-frame5.svg')] bg-contain bg-no-repeat"
-            ></div>
-            <p class="text-2xl font-semibold">Sync to your Tools</p>
+            <img
+              src="/images/section2-frame5.svg"
+              class="w-full"
+              alt="Sync to your Tools"
+            />
+            <p class="mb-2 mt-7 text-2xl font-semibold">Sync to your Tools</p>
             <p>
               Easily Sync your User Stories, Epics, and Acceptance Criteria to
               Jira or Azure for production.
@@ -380,7 +404,7 @@
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 rounded-3xl bg-background p-12 lg:flex-row"
+            class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
           >
             <div class="flex w-1/2 flex-col justify-center">
               <p class="text-2xl font-semibold">Requirements Management</p>
@@ -400,7 +424,7 @@
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 rounded-3xl bg-background p-12 lg:flex-row"
+            class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
           >
             <div class="flex w-1/2 flex-col justify-center">
               <p class="text-2xl font-semibold">
@@ -420,7 +444,7 @@
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 rounded-3xl bg-background p-12 lg:flex-row"
+            class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
           >
             <div class="flex w-1/2 flex-col justify-center">
               <p class="text-2xl font-semibold">Test Automation</p>
@@ -439,7 +463,7 @@
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 rounded-3xl bg-background lg:flex-row"
+            class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background lg:flex-row"
           >
             <div class="flex w-1/2 flex-col justify-center pb-12 pl-12 pt-12">
               <p class="text-2xl font-semibold">
