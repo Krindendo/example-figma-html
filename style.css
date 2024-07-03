@@ -44,6 +44,12 @@
   }
   body {
     @apply bg-background font-montserrat text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+
+  .elipse {
+    @apply rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% opacity-80 blur-[50px];
   }
 }
