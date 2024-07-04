@@ -133,7 +133,7 @@
         </div>
 
         <div
-          class="col-span-2 flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+          class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:col-span-2"
         >
           <div
             class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-10 text-center"
@@ -143,7 +143,7 @@
               class="w-full"
               alt="Automatic AI Generated User Stories"
             />
-            <p class="mb-2 mt-7 text-2xl font-semibold">
+            <p class="mb-2 mt-1 text-2xl font-semibold">
               Automatic AI Generated User Stories
             </p>
             <p>Create User Stories with AI based on your User Journeys.</p>
@@ -157,10 +157,10 @@
           >
             <img
               src="/images/section2-frame3.svg"
-              class="w-full"
+              class=""
               alt="AI Test Case Generation"
             />
-            <p class="mb-2 mt-7 text-2xl font-semibold">
+            <p class="mb-2 mt-1 text-2xl font-semibold">
               AI Test Case Generation
             </p>
             <p>
@@ -198,7 +198,7 @@
           >
             <img
               src="/images/section2-frame5.svg"
-              class="w-full"
+              class=""
               alt="Sync to your Tools"
             />
             <p class="mb-2 mt-7 text-2xl font-semibold">Sync to your Tools</p>
@@ -406,7 +406,7 @@
           <div
             class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
           >
-            <div class="flex w-1/2 flex-col justify-center">
+            <div class="flex w-1/2 flex-col justify-center gap-3">
               <p class="text-2xl font-semibold">Requirements Management</p>
               <p class="text-xl">
                 Track project progress, health, risks, and status. Log feedback,
@@ -416,7 +416,14 @@
                 execution.
               </p>
             </div>
-            <img class="h-full w-1/2" src="/images/section5-frame1.svg" />
+            <div class="relative flex w-1/2">
+              <img
+                class="z-10 h-full w-full"
+                src="/images/section5-frame1.svg"
+              />
+              <div class="elipse-short absolute -bottom-16 -left-8"></div>
+              <div class="elipse-short absolute -right-8 -top-16"></div>
+            </div>
           </div>
         </div>
 
@@ -426,7 +433,7 @@
           <div
             class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
           >
-            <div class="flex w-1/2 flex-col justify-center">
+            <div class="flex w-1/2 flex-col justify-center gap-3">
               <p class="text-2xl font-semibold">
                 Automatic BPMN 2.0 Generation
               </p>
@@ -437,16 +444,23 @@
                 streamlining the visualization process.
               </p>
             </div>
-            <img class="h-full w-1/2" src="/images/section5-frame2.svg" />
+            <div class="relative flex w-1/2">
+              <img
+                class="z-10 h-full w-full"
+                src="/images/section5-frame2.svg"
+              />
+              <div class="elipse-short absolute -left-8 -top-16"></div>
+              <div class="elipse-short absolute -bottom-8 -right-8"></div>
+            </div>
           </div>
         </div>
         <div
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
+            class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
           >
-            <div class="flex w-1/2 flex-col justify-center">
+            <div class="flex w-1/2 flex-col justify-center gap-3">
               <p class="text-2xl font-semibold">Test Automation</p>
               <p class="text-xl">
                 Simplify the creation of Acceptance Criteria and execution of
@@ -455,7 +469,14 @@
                 the testing process.
               </p>
             </div>
-            <img class="h-full w-1/2" src="/images/section5-frame3.svg" />
+            <div class="relative flex w-1/2">
+              <img
+                class="z-10 h-full w-full"
+                src="/images/section5-frame3.svg"
+              />
+              <div class="elipse-short absolute -bottom-16 -left-8"></div>
+              <div class="elipse-short absolute -right-8 -top-16"></div>
+            </div>
           </div>
         </div>
 
@@ -463,9 +484,11 @@
           class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
         >
           <div
-            class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background lg:flex-row"
+            class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background lg:flex-row"
           >
-            <div class="flex w-1/2 flex-col justify-center pb-12 pl-12 pt-12">
+            <div
+              class="flex w-1/2 flex-col justify-center gap-3 pb-12 pl-12 pt-12"
+            >
               <p class="text-2xl font-semibold">
                 Integrate into your existing ecosystem
               </p>
@@ -477,8 +500,10 @@
                 creation.
               </p>
             </div>
-            <div class="flex h-full w-1/2 justify-end">
-              <img class="h-full" src="/images/section5-frame4.svg" />
+            <div class="relative flex h-full w-1/2 justify-end">
+              <img class="z-10 h-full" src="/images/section5-frame4.svg" />
+              <div class="elipse-short absolute -left-8 -top-16"></div>
+              <div class="elipse-short absolute -bottom-8 -right-8"></div>
             </div>
           </div>
         </div>
@@ -505,7 +530,9 @@
         </div>
       </div>
     </section>
-    <section class="container flex flex-col items-center justify-center gap-11">
+    <section
+      class="container relative flex flex-col items-center justify-center gap-11"
+    >
       <h3 class="max-w-4xl text-center text-[40px] font-semibold leading-10">
         Join us in revolutionizing global business growth through AI-driven
         innovation today
@@ -529,6 +556,12 @@
           Request Early access
         </button>
       </form>
+      <div
+        class="elipse absolute -top-64 left-[-26rem] h-[700px] w-[700px]"
+      ></div>
+      <div
+        class="elipse absolute -top-12 right-[-15rem] h-[700px] w-[700px]"
+      ></div>
     </section>
     <footer
       class="mt-44 flex flex-row justify-between border-t border-white bg-[#333333] p-10 text-white"

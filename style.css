@@ -52,4 +52,7 @@
   .elipse {
     @apply -z-40 rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% opacity-70 blur-[63px];
   }
+  .elipse-short {
+    @apply z-0 h-[270px] w-[270px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% blur-[35px];
+  }
 }
