@@ -31,6 +31,17 @@ import "./style.css";
     replaceFormWithMessage(formBottom);
   };
 
-  formTop.addEventListener("submit", handleSubmitTop);
-  formBottom.addEventListener("submit", handleSubmitBottom);
+  formTop?.addEventListener("submit", handleSubmitTop);
+  formBottom?.addEventListener("submit", handleSubmitBottom);
+})();
+
+(() => {
+  const menuButtonHTML = document.getElementById("menu-button");
+  const menuHTML = document.getElementById("menu");
+
+  const handleToggle = () => {
+    menuHTML.classList.toggle("hidden");
+  };
+
+  menuButtonHTML.addEventListener("click", handleToggle);
 })();
