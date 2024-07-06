@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Converting Figma to HTML" />
     <title>Figma to HTML</title>
     <script type="module" src="main.js" defer></script>
   </head>
@@ -11,7 +12,7 @@
       class="fixed left-0 right-0 top-0 z-50 flex flex-row items-center justify-between bg-background/5 px-4 py-5 backdrop-blur-sm md:bg-background md:px-10 md:py-9"
     >
       <nav class="flex flex-row items-center gap-9">
-        <img src="/images/logo.svg" />
+        <img src="/images/logo.svg" alt="logo of reqaps" />
         <ul class="hidden flex-row items-center justify-center gap-12 md:flex">
           <li class="hover:underline">Features</li>
           <li class="hover:underline">Benefits</li>
@@ -43,21 +44,21 @@
         <div class="flex w-full items-center justify-between border-b p-7">
           <p class="text-xl font-bold">Menu</p>
           <button id="close-menu-button">
-            <img src="/icons/close.svg" />
+            <img src="/icons/close.svg" alt="icon for close button" />
           </button>
         </div>
         <div class="flex flex-1 flex-col items-start justify-center">
           <a href="#" class="flex w-full justify-between px-7 py-4 pt-8">
             <p class="text-xl font-medium">Features</p>
-            <img src="/icons/arrow-right.svg" />
+            <img src="/icons/arrow-right.svg" alt="icon for right arrow" />
           </a>
           <a href="#" class="flex w-full justify-between px-7 py-4">
             <p class="text-xl font-medium">Benefits</p>
-            <img src="/icons/arrow-right.svg" />
+            <img src="/icons/arrow-right.svg" alt="icon for right arrow" />
           </a>
           <a href="#" class="flex w-full justify-between px-7 py-4">
             <p class="text-xl font-medium">Free Generator</p>
-            <img src="/icons/arrow-right.svg" />
+            <img src="/icons/arrow-right.svg" alt="icon for right arrow" />
           </a>
           <div
             class="flex w-full flex-1 flex-col items-center justify-end gap-5 p-7 pb-10"
@@ -121,30 +122,42 @@
       <section
         class="container mb-11 flex flex-col items-center justify-center gap-5 p-0 md:mb-36 md:gap-16"
       >
-        <p class="px-6 text-center text-xs font-semibold md:text-xl">
+        <h2 class="px-6 text-center text-xs font-semibold md:text-xl">
           Say goodbye to manual requirement building. Let Reqops speed things
           up.
-        </p>
+        </h2>
         <div class="horizontal-scroll">
           <div class="layout-grid-row md:justify-center">
             <div class="horizontal-scroll_item-padding first">
               <div
                 class="flex h-[265px] w-[223px] items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:h-[444px] md:w-[373px]"
               >
-                <img class="rounded-3xl" src="/images/section1-frame1.svg" />
+                <img
+                  class="rounded-3xl"
+                  src="/images/section1-frame1.svg"
+                  alt="AI-Assisted Requirement Managemennt"
+                />
               </div>
             </div>
 
             <div
               class="flex h-[265px] w-[223px] items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:h-[444px] md:w-[373px]"
             >
-              <img class="rounded-3xl" src="/images/section1-frame2.svg" />
+              <img
+                class="rounded-3xl"
+                src="/images/section1-frame2.svg"
+                alt="Efficient AI-Driven Communication"
+              />
             </div>
             <div class="horizontal-scroll_item-padding last">
               <div
                 class="flex h-[265px] w-[223px] items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:h-[444px] md:w-[373px]"
               >
-                <img class="rounded-3xl" src="/images/section1-frame3.svg" />
+                <img
+                  class="rounded-3xl"
+                  src="/images/section1-frame3.svg"
+                  alt="Scope Creep Management"
+                />
               </div>
             </div>
           </div>
@@ -153,10 +166,10 @@
       <section
         class="container mb-11 flex flex-col items-center justify-center gap-7 md:mb-36 md:gap-16"
       >
-        <h3 class="max-w-[986px] text-center text-sm font-semibold md:text-3xl">
+        <h2 class="max-w-[986px] text-center text-sm font-semibold md:text-3xl">
           Never waste more than a day handing over design requirements with
           these features:
-        </h3>
+        </h2>
         <div
           class="grid w-full grid-cols-1 gap-3 md:grid-cols-[minmax(373px,_265px)_minmax(373px,_265px)_minmax(373px,_265px)] md:grid-rows-[minmax(444px,_265px)_minmax(444px,_265px)] md:justify-center md:gap-10"
         >
@@ -280,9 +293,9 @@
       <section
         class="container mb-11 flex flex-col items-center justify-center gap-5 p-0 md:mb-36 md:gap-10"
       >
-        <h3 class="px-6 text-center text-sm font-semibold md:text-[32px]">
+        <h2 class="px-6 text-center text-sm font-semibold md:text-[32px]">
           Uplift Your Delivery Squad
-        </h3>
+        </h2>
         <div class="horizontal-scroll">
           <div class="layout-grid-row md:justify-center md:gap-10">
             <div class="horizontal-scroll_item-padding first">
@@ -295,6 +308,7 @@
                   <img
                     class="h-9 w-9 self-start md:h-12 md:w-12"
                     src="/images/section3-icon1.svg"
+                    alt="icon for database"
                   />
                   <p class="text-sm font-semibold md:text-xl">
                     80% savings on testing expenditure
@@ -318,6 +332,7 @@
                 <img
                   class="h-9 w-9 self-start md:h-12 md:w-12"
                   src="/images/section3-icon2.svg"
+                  alt="icon for target"
                 />
                 <p class="text-sm font-semibold md:text-xl">
                   Never lose track of your features
@@ -340,6 +355,7 @@
                   <img
                     class="h-9 w-9 self-start md:h-12 md:w-12"
                     src="/images/section3-icon2.svg"
+                    alt="icon for html"
                   />
                   <p class="text-sm font-semibold md:text-xl">
                     Never lose track of your features
@@ -359,9 +375,9 @@
       <section
         class="container mb-11 flex flex-col items-center justify-center md:mb-36"
       >
-        <h3 class="mb-2 text-xs font-medium md:mb-4 md:text-xl">
+        <h2 class="mb-2 text-xs font-medium md:mb-4 md:text-xl">
           Behind Every Great Delivery:
-        </h3>
+        </h2>
         <h3 class="mb-14 text-sm font-semibold md:mb-24 md:text-[32px]">
           The Collective Delivery Squad
         </h3>
@@ -376,6 +392,7 @@
                 <img
                   class="h-7 w-7 md:h-[50px] md:w-[50px]"
                   src="/images/section4-icon1.svg"
+                  alt="Project Coordination"
                 />
               </div>
 
@@ -400,6 +417,7 @@
                 <img
                   class="h-7 w-7 md:h-[50px] md:w-[50px]"
                   src="/images/section4-icon2.svg"
+                  alt="Risk Management"
                 />
               </div>
 
@@ -423,6 +441,7 @@
                 <img
                   class="h-7 w-7 md:h-[50px] md:w-[50px]"
                   src="/images/section4-icon3.svg"
+                  alt="Communication"
                 />
               </div>
 
@@ -446,6 +465,7 @@
                 <img
                   class="h-7 w-7 md:h-[50px] md:w-[50px]"
                   src="/images/section4-icon4.svg"
+                  alt="Strategic Alignment"
                 />
               </div>
 
@@ -469,6 +489,7 @@
                 <img
                   class="h-7 w-7 md:h-[50px] md:w-[50px]"
                   src="/images/section4-icon5.svg"
+                  alt="Scope Management"
                 />
               </div>
 
@@ -492,6 +513,7 @@
                 <img
                   class="h-7 w-7 md:h-[50px] md:w-[50px]"
                   src="/images/section4-icon6.svg"
+                  alt="Quality Assurance"
                 />
               </div>
 
@@ -512,16 +534,14 @@
       <section
         class="container mb-11 flex flex-col items-center justify-center gap-5 p-0 md:mb-36 md:gap-16"
       >
-        <h3
+        <h2
           class="max-w-[767px] text-center text-sm font-semibold md:text-[32px] md:leading-10"
         >
           Transform work practices forever. Our Framework for the future:
-        </h3>
+        </h2>
 
         <div class="horizontal-scroll">
-          <div
-            class="layout-grid-row grid-cols-1 justify-center md:grid-flow-row"
-          >
+          <div class="layout-grid-row md:grid-cols-1 md:justify-center">
             <div class="horizontal-scroll_item-padding first">
               <div
                 class="flex h-[372px] w-[321px] items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:h-[444px] md:w-full"
@@ -545,6 +565,7 @@
                     <img
                       class="z-10 h-full w-full"
                       src="/images/section5-frame1.svg"
+                      alt="Requirements Management"
                     />
                     <div class="elipse-short absolute -bottom-16 -left-8"></div>
                     <div class="elipse-short absolute -right-8 -top-16"></div>
@@ -573,6 +594,7 @@
                   <img
                     class="z-10 h-full w-full"
                     src="/images/section5-frame2.svg"
+                    alt="Automatic BPMN 2.0 Generation"
                   />
                   <div class="elipse-short absolute -left-8 -top-16"></div>
                   <div class="elipse-short absolute -bottom-8 -right-8"></div>
@@ -601,6 +623,7 @@
                   <img
                     class="z-10 h-full w-full"
                     src="/images/section5-frame3.svg"
+                    alt="Test Automation"
                   />
                   <div class="elipse-short absolute -bottom-16 -left-8"></div>
                   <div class="elipse-short absolute -right-8 -top-16"></div>
@@ -632,6 +655,7 @@
                     <img
                       class="z-10 h-full w-full"
                       src="/images/section5-frame4.svg"
+                      alt="Integrate into your existing ecosystem"
                     />
                     <div class="elipse-short absolute -left-8 -top-16"></div>
                     <div class="elipse-short absolute -bottom-8 -right-8"></div>
@@ -667,19 +691,23 @@
             </button>
           </div>
           <div class="md:w-1/2">
-            <img class="h-full" src="/images/section6-frame1.svg" />
+            <img
+              class="h-full"
+              src="/images/section6-frame1.svg"
+              alt="Process Flow maps"
+            />
           </div>
         </div>
       </section>
       <section
         class="container relative flex flex-col items-center justify-center gap-11"
       >
-        <h3
+        <h2
           class="max-w-4xl text-center text-base font-semibold md:text-[40px] md:leading-[2.75rem]"
         >
           Join us in revolutionizing global business growth through AI-driven
           innovation today
-        </h3>
+        </h2>
         <p class="text-xs font-semibold md:text-xl">
           Get early access to our free features.
         </p>
@@ -715,7 +743,7 @@
     <footer
       class="flex flex-row items-center justify-between border-t border-white bg-[#333333] p-5 text-white md:p-10"
     >
-      <img class="h-5 md:h-full" src="/images/logo.svg" />
+      <img class="h-5 md:h-full" src="/images/logo.svg" alt="logo of reqaps" />
       <div class="hidden flex-row items-center gap-7 md:flex">
         <a class="hover:underline" href="#">Already a member?</a>
         <button class="rounded-lg border border-white px-[25px] py-[9px]">
@@ -725,7 +753,10 @@
     </footer>
 
     <template id="request_early_access_template">
-      <img src="/images/icon-checkmark-circle.svg" />
+      <img
+        src="/images/icon-checkmark-circle.svg"
+        alt="icon for checkmark button"
+      />
       <p class="text-xl">
         We got it! Keep an eye on your inbox for our official invite.
       </p>
