@@ -50,7 +50,7 @@
   }
 
   .elipse {
-    @apply -z-40 rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% opacity-70 blur-[63px];
+    @apply -z-40 h-[186px] w-[186px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% opacity-70 blur-[63px] md:h-[700px] md:w-[700px];
   }
   .elipse-short {
     @apply z-0 h-[270px] w-[270px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% blur-[35px];

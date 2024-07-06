@@ -8,7 +8,7 @@
   </head>
   <body>
     <header
-      class="mx-4 my-5 flex flex-row items-center justify-between md:mx-10 md:py-9"
+      class="sticky mx-4 my-5 flex flex-row items-center justify-between md:mx-10 md:py-9"
     >
       <nav class="flex flex-row items-center gap-9">
         <img src="/images/logo.svg" />
@@ -35,7 +35,7 @@
 
       <div
         id="menu"
-        class="fixed bottom-0 left-0 right-0 top-0 hidden bg-black/40"
+        class="fixed bottom-0 left-0 right-0 top-0 z-50 hidden bg-black/40"
       >
         <div
           class="absolute bottom-0 right-0 top-0 flex w-[350px] translate-x-full flex-col border-l border-[#909090] bg-[#2C2C2C] duration-500 ease-in-out"
@@ -74,7 +74,52 @@
         </div>
       </div>
     </header>
-    <main class="overflow-hidden pb-44 pt-36"></main>
+    <main class="mb:pb-44 pb-20 pt-14 md:overflow-hidden md:pt-36">
+      <section
+        class="container relative mb-36 flex flex-col items-center justify-center gap-7 px-5 md:gap-12"
+      >
+        <h1
+          class="text-center text-[32px] font-bold leading-[39px] md:text-[64px] md:leading-[80px]"
+        >
+          Pioneering communication in
+          <br />
+          <span
+            class="inline-block bg-gradient-to-r from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] bg-clip-text text-transparent"
+            >software delivery.</span
+          >
+        </h1>
+        <p class="text-center text-sm font-semibold md:text-xl">
+          Accelerate development with AI-driven speed from design to delivery
+          faster than ever before.
+        </p>
+        <form
+          id="request_early_access_top"
+          method="post"
+          class="flex h-10 flex-row items-center justify-center gap-4 md:h-14"
+        >
+          <input
+            class="h-full w-[171px] rounded-lg border border-[#919EAB] bg-transparent p-2 placeholder:text-[12px] placeholder:text-[#919EAB] md:w-[410px] md:p-3 placeholder:md:text-sm"
+            name="email"
+            type="text"
+            id="test"
+            value=""
+            placeholder="Enter your work email"
+          />
+          <button
+            type="submit"
+            class="h-full w-[145px] rounded-lg bg-[#5B5AF7] p-0 text-[12px] font-semibold md:w-[185px] md:p-2 md:text-sm"
+          >
+            Request Early access
+          </button>
+        </form>
+        <div
+          class="elipse absolute -right-32 -top-4 md:right-[-15rem] md:top-12"
+        ></div>
+        <div
+          class="elipse absolute -left-9 top-28 md:left-[-26rem] md:top-64"
+        ></div>
+      </section>
+    </main>
     <footer
       class="flex flex-row items-center justify-between border-t border-white bg-[#333333] p-5 text-white md:p-10"
     >

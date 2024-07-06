@@ -1,628 +1,513 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Figma to HTML</title>
-    <script type="module" src="main.js" defer></script>
-  </head>
-  <body>
-    <header class="mx-10 flex flex-row justify-between py-9">
-      <nav class="flex flex-row items-center gap-9">
-        <img src="/images/logo.svg" />
-        <ul class="flex flex-row items-center justify-center gap-12">
-          <li class="hover:underline">Features</li>
-          <li class="hover:underline">Benefits</li>
-          <li class="hover:underline">Free Generator</li>
-        </ul>
-      </nav>
-      <div class="flex flex-row items-center gap-7">
-        <a class="hover:underline" href="/member">Already a member?</a>
-        <button class="rounded-lg border border-white px-[25px] py-[9px]">
-          Log in
-        </button>
-      </div>
-    </header>
-    <main class="overflow-hidden pb-44 pt-36">
-      <section
-        class="container relative mb-36 flex flex-col items-center justify-center gap-12"
-      >
-        <h1 class="text-center text-[64px] font-bold leading-[80px]">
-          Pioneering communication in
-          <br />
-          <span
-            class="inline-block bg-gradient-to-r from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] bg-clip-text text-transparent"
-            >software delivery.</span
-          >
-        </h1>
-        <p class="text-center text-xl font-semibold">
-          Accelerate development with AI-driven speed from design to delivery
-          faster than ever before.
-        </p>
-        <form
-          id="request_early_access_top"
-          method="post"
-          class="flex h-14 flex-row items-center justify-center gap-4"
-        >
-          <input
-            class="h-full w-[410px] rounded-lg border border-[#919EAB] bg-transparent p-3 placeholder:text-sm placeholder:text-[#919EAB]"
-            name="email"
-            type="text"
-            id="test"
-            value=""
-            placeholder="Enter your work email"
-          />
-          <button
-            type="submit"
-            class="h-full w-[185px] rounded-lg bg-[#5B5AF7] p-2 text-sm font-semibold"
-          >
-            Request Early access
-          </button>
-        </form>
-        <div
-          class="elipse absolute left-[-26rem] top-64 h-[700px] w-[700px]"
-        ></div>
-        <div
-          class="elipse absolute right-[-15rem] top-12 h-[700px] w-[700px]"
-        ></div>
-      </section>
-      <section
-        class="container mb-36 flex flex-col items-center justify-center gap-16"
-      >
-        <p class="text-center text-xl font-semibold">
-          Say goodbye to manual requirement building. Let Reqops speed things
-          up.
-        </p>
-        <div
-          class="flex h-[444px] w-full flex-row items-center justify-center gap-11"
-        >
-          <div class="relative aspect-[373/444] w-full max-w-[373px]">
-            <div
-              class="absolute inset-0 z-10 h-full w-full max-w-[373px] rounded-3xl bg-[url('/images/section1-frame1.svg')] bg-contain bg-no-repeat"
-            ></div>
-            <div
-              class="absolute -inset-[3px] z-0 items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-            ></div>
-          </div>
-
-          <div class="relative aspect-[373/444] w-full max-w-[373px]">
-            <div
-              class="absolute inset-0 z-10 h-full w-full max-w-[373px] rounded-3xl bg-[url('/images/section1-frame2.svg')] bg-contain bg-no-repeat"
-            ></div>
-            <div
-              class="absolute -inset-[3px] z-0 items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-            ></div>
-          </div>
-          <div class="relative aspect-[373/444] w-full max-w-[373px]">
-            <div
-              class="absolute inset-0 z-10 h-full w-full max-w-[373px] rounded-3xl bg-[url('/images/section1-frame3.svg')] bg-contain bg-no-repeat"
-            ></div>
-            <div
-              class="absolute -inset-[3px] z-0 items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-            ></div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="container mb-36 flex flex-col items-center justify-center gap-16"
-      >
-        <h3 class="text-center text-3xl font-semibold">
-          Never waste more than a day handing over design requirements with
-          these features:
-        </h3>
-        <div
-          class="grid w-full grid-cols-1 gap-10 md:grid-cols-3 md:grid-rows-[minmax(444px,_265px)_minmax(444px,_265px)]"
-        >
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="relative flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
-            >
-              <img
-                src="/images/section2-frame1.svg"
-                class="z-20 w-full"
-                alt="AI Process Map Generation"
-              />
-              <p class="z-20 mb-2 mt-7 text-2xl font-semibold">
-                AI Process Map Generation
-              </p>
-              <p class="z-20">
-                Generate User Journeys and automate the Journey creation flow
-                with AI
-              </p>
-              <div class="elipse-short absolute -left-28 -top-20"></div>
-              <div class="elipse-short absolute -bottom-20 -right-28"></div>
-            </div>
-          </div>
-
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:col-span-2"
-          >
-            <div
-              class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-11 text-center"
-            >
-              <img
-                src="/images/section2-frame2.svg"
-                class="z-20 h-full"
-                alt="Automatic AI Generated User Stories"
-              />
-              <p class="z-20 mb-2 mt-8 text-2xl font-semibold">
-                Automatic AI Generated User Stories
-              </p>
-              <p class="z-20">
-                Create User Stories with AI based on your User Journeys.
-              </p>
-              <div class="elipse-short absolute -right-28 -top-20"></div>
-              <div class="elipse-short absolute -left-16 bottom-10"></div>
-            </div>
-          </div>
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
-            >
-              <img
-                src="/images/section2-frame3.svg"
-                class="z-20 h-full"
-                alt="AI Test Case Generation"
-              />
-              <p class="z-20 mb-2 mt-1 text-2xl font-semibold">
-                AI Test Case Generation
-              </p>
-              <p class="z-20">
-                Easily Sync your User Import Designs seamlessly to create
-                Acceptance Criteria for every screen and each User
-                Story.Stories, Epics, and Acceptance Criteria to Jira or Azure
-                for production.
-              </p>
-              <div class="elipse-short absolute -right-28 -top-20"></div>
-              <div class="elipse-short absolute -left-16 bottom-12"></div>
-            </div>
-          </div>
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background pt-7 text-center"
-            >
-              <div class="z-20 px-7">
-                <p class="text-2xl font-semibold">Import your Designs</p>
-                <p class="mb-7 mt-2">
-                  Import your designs from Figma seamlessly and use AI to
-                  narrate your user flows.
-                </p>
-              </div>
-              <img
-                src="/images/section2-frame4.svg"
-                class="z-20 h-full"
-                alt="Import your Designs"
-              />
-              <div class="elipse-short absolute -left-16 -top-20"></div>
-              <div class="elipse-short absolute -right-28 bottom-12"></div>
-            </div>
-          </div>
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
-            >
-              <img
-                src="/images/section2-frame5.svg"
-                class="z-20"
-                alt="Sync to your Tools"
-              />
-              <p class="z-20 mb-2 mt-7 text-2xl font-semibold">
-                Sync to your Tools
-              </p>
-              <p class="z-20">
-                Easily Sync your User Stories, Epics, and Acceptance Criteria to
-                Jira or Azure for production.
-              </p>
-              <div class="elipse-short absolute -left-16 -top-20"></div>
-              <div class="elipse-short absolute -right-28 bottom-12"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="container mb-36 flex flex-col items-center justify-center gap-10"
-      >
-        <h3 class="text-[32px] font-semibold">Uplift Your Delivery Squad</h3>
-        <div
-          class="flex h-[315px] w-full flex-row items-center justify-center gap-10"
-        >
-          <div
-            class="flex h-full items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="flex h-full w-full flex-col justify-around rounded-3xl bg-background p-5"
-            >
-              <img class="self-start" src="/images/section3-icon1.svg" />
-              <p class="text-xl font-semibold">
-                80% savings on testing expenditure
-              </p>
-              <p class="">
-                Achieve over $70,000 in testing cost savings, automate QA roles
-                within agile squads, and enhance communication among BAs,
-                Developers, and Product Owners for streamlined operations and
-                improved collaboration.
-              </p>
-            </div>
-          </div>
-          <div
-            class="flex h-full items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="flex h-full w-full flex-col justify-around rounded-3xl bg-background p-5"
-            >
-              <img class="self-start" src="/images/section3-icon2.svg" />
-              <p class="text-xl font-semibold">
-                Never lose track of your features
-              </p>
-              <p class="">
-                Streamline documentation across JIRA, Confluence, and git
-                repositories, gain instant product insights, and maintain
-                testing traceability with our comprehensive test script
-                dashboard.
-              </p>
-            </div>
-          </div>
-          <div
-            class="flex h-full items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="flex h-full w-full flex-col justify-around rounded-3xl bg-background p-5"
-            >
-              <img class="self-start" src="/images/section3-icon3.svg" />
-              <p class="text-xl font-semibold">Less meetings more coding</p>
-              <p class="">
-                ReqOPS requirement briefs are detailed to ensure your engineers
-                enjoy working with us. We provide comprehensive user stories,
-                functional UI test cases, CI integration, automated process flow
-                generation, AI workshops, and more.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        class="container mb-64 flex flex-col items-center justify-center"
-      >
-        <h3 class="mb-4 text-xl font-medium">Behind Every Great Delivery:</h3>
-        <h3 class="mb-24 text-[32px] font-semibold">
-          The Collective Delivery Squad
-        </h3>
-        <ul class="grid grid-cols-3 grid-rows-2 gap-x-24 gap-y-20">
-          <li class="flex flex-col items-center justify-center">
-            <div class="relative mb-4 flex h-20 w-20">
-              <div
-                class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
-              >
-                <img
-                  class="h-[50px] w-[50px]"
-                  src="/images/section4-icon1.svg"
-                />
-              </div>
-
-              <div
-                class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-              ></div>
-            </div>
-
-            <p class="mb-4 text-center text-xl font-semibold">
-              Project Coordination
-            </p>
-            <p class="text-center">
-              Ensure efficient planning, execution, and completion of projects,
-              keeping them on schedule and within budget.
-            </p>
-          </li>
-          <li class="flex flex-col items-center justify-center">
-            <div class="relative mb-4 flex h-20 w-20">
-              <div
-                class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
-              >
-                <img
-                  class="h-[50px] w-[50px]"
-                  src="/images/section4-icon2.svg"
-                />
-              </div>
-
-              <div
-                class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-              ></div>
-            </div>
-            <p class="mb-4 text-center text-xl font-semibold">
-              Risk Management:
-            </p>
-            <p class="text-center">
-              Proactively identify and mitigate risks to prevent delays and
-              project failures.
-            </p>
-          </li>
-          <li class="flex flex-col items-center justify-center">
-            <div class="relative mb-4 flex h-20 w-20">
-              <div
-                class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
-              >
-                <img
-                  class="h-[50px] w-[50px]"
-                  src="/images/section4-icon3.svg"
-                />
-              </div>
-
-              <div
-                class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-              ></div>
-            </div>
-            <p class="mb-4 text-center text-xl font-semibold">Communication</p>
-            <p class="text-center">
-              They maintain open communication between teams and stakeholders,
-              ensuring alignment and clarity on project goals.
-            </p>
-          </li>
-          <li class="flex flex-col items-center justify-center">
-            <div class="relative mb-4 flex h-20 w-20">
-              <div
-                class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
-              >
-                <img
-                  class="h-[50px] w-[50px]"
-                  src="/images/section4-icon4.svg"
-                />
-              </div>
-
-              <div
-                class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-              ></div>
-            </div>
-            <p class="mb-4 text-center text-xl font-semibold">
-              Strategic Alignment
-            </p>
-            <p class="text-center">
-              They ensure projects align with and contribute to the
-              organisation’s strategic objectives.
-            </p>
-          </li>
-          <li class="flex flex-col items-center justify-center">
-            <div class="relative mb-4 flex h-20 w-20">
-              <div
-                class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
-              >
-                <img
-                  class="h-[50px] w-[50px]"
-                  src="/images/section4-icon5.svg"
-                />
-              </div>
-
-              <div
-                class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-              ></div>
-            </div>
-            <p class="mb-4 text-center text-xl font-semibold">
-              Scope Management
-            </p>
-            <p class="text-center">
-              Changes in project scope or resources, adapting strategies to
-              ensure successful outcomes.
-            </p>
-          </li>
-          <li class="flex flex-col items-center justify-center">
-            <div class="relative mb-4 flex h-20 w-20">
-              <div
-                class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
-              >
-                <img
-                  class="h-[50px] w-[50px]"
-                  src="/images/section4-icon6.svg"
-                />
-              </div>
-
-              <div
-                class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
-              ></div>
-            </div>
-            <p class="mb-4 text-center text-xl font-semibold">
-              Quality Assurance
-            </p>
-            <p class="text-center">
-              Oversee project standards and quality, ensuring outputs meet or
-              exceed expectations.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section
-        class="container mb-36 flex flex-col items-center justify-center gap-16"
-      >
-        <h3 class="text-[32px] font-semibold">
-          Transform work practices forever. Our Framework for the future:
-        </h3>
-        <div class="flex flex-col items-center justify-center gap-5">
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
-            >
-              <div class="flex w-1/2 flex-col justify-center gap-3">
-                <p class="text-2xl font-semibold">Requirements Management</p>
-                <p class="text-xl">
-                  Track project progress, health, risks, and status. Log
-                  feedback, and monitor scope creep to ensure stakeholders are
-                  always informed, providing a clear and up-to-date
-                  understanding of the project's status for effective
-                  decision-making and smoother execution.
-                </p>
-              </div>
-              <div class="relative flex w-1/2">
-                <img
-                  class="z-10 h-full w-full"
-                  src="/images/section5-frame1.svg"
-                />
-                <div class="elipse-short absolute -bottom-16 -left-8"></div>
-                <div class="elipse-short absolute -right-8 -top-16"></div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
-            >
-              <div class="flex w-1/2 flex-col justify-center gap-3">
-                <p class="text-2xl font-semibold">
-                  Automatic BPMN 2.0 Generation
-                </p>
-                <p class="text-xl">
-                  Leverage intuitive AI to create Process Maps, User Journeys,
-                  and flows automatically. Generate diagrams for each feature
-                  effortlessly, eliminating the need for manual layout and
-                  streamlining the visualization process.
-                </p>
-              </div>
-              <div class="relative flex w-1/2">
-                <img
-                  class="z-10 h-full w-full"
-                  src="/images/section5-frame2.svg"
-                />
-                <div class="elipse-short absolute -left-8 -top-16"></div>
-                <div class="elipse-short absolute -bottom-8 -right-8"></div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
-            >
-              <div class="flex w-1/2 flex-col justify-center gap-3">
-                <p class="text-2xl font-semibold">Test Automation</p>
-                <p class="text-xl">
-                  Simplify the creation of Acceptance Criteria and execution of
-                  automated test scripts. Track testing progress and eliminate
-                  the need for manual testing, enhancing efficiency and accuracy
-                  in the testing process.
-                </p>
-              </div>
-              <div class="relative flex w-1/2">
-                <img
-                  class="z-10 h-full w-full"
-                  src="/images/section5-frame3.svg"
-                />
-                <div class="elipse-short absolute -bottom-16 -left-8"></div>
-                <div class="elipse-short absolute -right-8 -top-16"></div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
-          >
-            <div
-              class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background lg:flex-row"
-            >
-              <div
-                class="flex w-1/2 flex-col justify-center gap-3 pb-12 pl-12 pt-12"
-              >
-                <p class="text-2xl font-semibold">
-                  Integrate into your existing ecosystem
-                </p>
-                <p class="text-xl">
-                  Integrate into your existing ecosystem seamlessly by syncing
-                  Reqops with tools like Jira, Azure, and Asana. Continue using
-                  your preferred tools while Reqops creates and manages your
-                  tickets, saving you the time and effort of manual ticket
-                  creation.
-                </p>
-              </div>
-              <div class="relative flex h-full w-1/2 justify-end">
-                <img class="z-10 h-full" src="/images/section5-frame4.svg" />
-                <div class="elipse-short absolute -left-8 -top-16"></div>
-                <div class="elipse-short absolute -bottom-8 -right-8"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container mb-64">
-        <div class="flex items-center justify-center gap-5">
-          <div class="w-1/2">
-            <p class="mb-3 text-2xl font-semibold">
-              Try our FREE Process Map Generator
-            </p>
-            <p class="mb-10">
-              Generate Process Flow maps and diagrams for your projects with
-              automated AI generation of User Stories.
-            </p>
-            <button
-              class="h-14 w-[185px] rounded-lg bg-[#5B5AF7] p-2 text-sm font-semibold"
-            >
-              Try it now for free
-            </button>
-          </div>
-          <div class="w-1/2">
-            <img class="h-full" src="/images/section6-frame1.svg" />
-          </div>
-        </div>
-      </section>
-      <section
-        class="container relative flex flex-col items-center justify-center gap-11"
-      >
-        <h3 class="max-w-4xl text-center text-[40px] font-semibold leading-10">
-          Join us in revolutionizing global business growth through AI-driven
-          innovation today
-        </h3>
-        <p class="text-xl font-semibold">
-          Get early access to our free features.
-        </p>
-        <form
-          id="request_early_access_bottom"
-          method="post"
-          class="flex h-14 flex-row items-center justify-center gap-4"
-        >
-          <input
-            class="h-full w-[410px] rounded-lg border border-[#919EAB] bg-transparent p-3 placeholder:text-sm placeholder:text-[#919EAB]"
-            placeholder="Enter your work email"
-          />
-          <button
-            type="submit"
-            class="h-full w-[185px] rounded-lg bg-[#5B5AF7] p-2 text-sm font-semibold"
-          >
-            Request Early access
-          </button>
-        </form>
-        <div
-          class="elipse absolute -top-64 left-[-26rem] h-[700px] w-[700px]"
-        ></div>
-        <div
-          class="elipse absolute -top-12 right-[-15rem] h-[700px] w-[700px]"
-        ></div>
-      </section>
-    </main>
-    <footer
-      class="flex flex-row justify-between border-t border-white bg-[#333333] p-10 text-white"
+<section
+  class="container relative mb-36 flex flex-col items-center justify-center gap-12"
+>
+  <h1 class="text-center text-[64px] font-bold leading-[80px]">
+    Pioneering communication in
+    <br />
+    <span
+      class="inline-block bg-gradient-to-r from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] bg-clip-text text-transparent"
+      >software delivery.</span
     >
-      <img src="/images/logo.svg" />
-      <div class="flex flex-row items-center gap-7">
-        <a class="hover:underline" href="#">Already a member?</a>
-        <button class="rounded-lg border border-white px-[25px] py-[9px]">
-          Log in
-        </button>
-      </div>
-    </footer>
+  </h1>
+  <p class="text-center text-xl font-semibold">
+    Accelerate development with AI-driven speed from design to delivery faster
+    than ever before.
+  </p>
+  <form
+    id="request_early_access_top"
+    method="post"
+    class="flex h-14 flex-row items-center justify-center gap-4"
+  >
+    <input
+      class="h-full w-[410px] rounded-lg border border-[#919EAB] bg-transparent p-3 placeholder:text-sm placeholder:text-[#919EAB]"
+      name="email"
+      type="text"
+      id="test"
+      value=""
+      placeholder="Enter your work email"
+    />
+    <button
+      type="submit"
+      class="h-full w-[185px] rounded-lg bg-[#5B5AF7] p-2 text-sm font-semibold"
+    >
+      Request Early access
+    </button>
+  </form>
+  <div class="elipse absolute left-[-26rem] top-64"></div>
+  <div class="elipse absolute right-[-15rem] top-12"></div>
+</section>
+<section
+  class="container mb-36 flex flex-col items-center justify-center gap-16"
+>
+  <p class="text-center text-xl font-semibold">
+    Say goodbye to manual requirement building. Let Reqops speed things up.
+  </p>
+  <div
+    class="flex h-[444px] w-full flex-row items-center justify-center gap-11"
+  >
+    <div class="relative aspect-[373/444] w-full max-w-[373px]">
+      <div
+        class="absolute inset-0 z-10 h-full w-full max-w-[373px] rounded-3xl bg-[url('/images/section1-frame1.svg')] bg-contain bg-no-repeat"
+      ></div>
+      <div
+        class="absolute -inset-[3px] z-0 items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+      ></div>
+    </div>
 
-    <template id="request_early_access_template">
-      <img src="/images/icon-checkmark-circle.svg" />
-      <p class="text-xl">
-        We got it! Keep an eye on your inbox for our official invite.
+    <div class="relative aspect-[373/444] w-full max-w-[373px]">
+      <div
+        class="absolute inset-0 z-10 h-full w-full max-w-[373px] rounded-3xl bg-[url('/images/section1-frame2.svg')] bg-contain bg-no-repeat"
+      ></div>
+      <div
+        class="absolute -inset-[3px] z-0 items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+      ></div>
+    </div>
+    <div class="relative aspect-[373/444] w-full max-w-[373px]">
+      <div
+        class="absolute inset-0 z-10 h-full w-full max-w-[373px] rounded-3xl bg-[url('/images/section1-frame3.svg')] bg-contain bg-no-repeat"
+      ></div>
+      <div
+        class="absolute -inset-[3px] z-0 items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+      ></div>
+    </div>
+  </div>
+</section>
+<section
+  class="container mb-36 flex flex-col items-center justify-center gap-16"
+>
+  <h3 class="text-center text-3xl font-semibold">
+    Never waste more than a day handing over design requirements with these
+    features:
+  </h3>
+  <div
+    class="grid w-full grid-cols-1 gap-10 md:grid-cols-3 md:grid-rows-[minmax(444px,_265px)_minmax(444px,_265px)]"
+  >
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="relative flex h-full w-full flex-col items-center justify-between overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
+      >
+        <img
+          src="/images/section2-frame1.svg"
+          class="z-20 w-full"
+          alt="AI Process Map Generation"
+        />
+        <p class="z-20 mb-2 mt-7 text-2xl font-semibold">
+          AI Process Map Generation
+        </p>
+        <p class="z-20">
+          Generate User Journeys and automate the Journey creation flow with AI
+        </p>
+        <div class="elipse-short absolute -left-28 -top-20"></div>
+        <div class="elipse-short absolute -bottom-20 -right-28"></div>
+      </div>
+    </div>
+
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:col-span-2"
+    >
+      <div
+        class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-11 text-center"
+      >
+        <img
+          src="/images/section2-frame2.svg"
+          class="z-20 h-full"
+          alt="Automatic AI Generated User Stories"
+        />
+        <p class="z-20 mb-2 mt-8 text-2xl font-semibold">
+          Automatic AI Generated User Stories
+        </p>
+        <p class="z-20">
+          Create User Stories with AI based on your User Journeys.
+        </p>
+        <div class="elipse-short absolute -right-28 -top-20"></div>
+        <div class="elipse-short absolute -left-16 bottom-10"></div>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
+      >
+        <img
+          src="/images/section2-frame3.svg"
+          class="z-20 h-full"
+          alt="AI Test Case Generation"
+        />
+        <p class="z-20 mb-2 mt-1 text-2xl font-semibold">
+          AI Test Case Generation
+        </p>
+        <p class="z-20">
+          Easily Sync your User Import Designs seamlessly to create Acceptance
+          Criteria for every screen and each User Story.Stories, Epics, and
+          Acceptance Criteria to Jira or Azure for production.
+        </p>
+        <div class="elipse-short absolute -right-28 -top-20"></div>
+        <div class="elipse-short absolute -left-16 bottom-12"></div>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background pt-7 text-center"
+      >
+        <div class="z-20 px-7">
+          <p class="text-2xl font-semibold">Import your Designs</p>
+          <p class="mb-7 mt-2">
+            Import your designs from Figma seamlessly and use AI to narrate your
+            user flows.
+          </p>
+        </div>
+        <img
+          src="/images/section2-frame4.svg"
+          class="z-20 h-full"
+          alt="Import your Designs"
+        />
+        <div class="elipse-short absolute -left-16 -top-20"></div>
+        <div class="elipse-short absolute -right-28 bottom-12"></div>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-3xl bg-background px-7 py-7 text-center"
+      >
+        <img
+          src="/images/section2-frame5.svg"
+          class="z-20"
+          alt="Sync to your Tools"
+        />
+        <p class="z-20 mb-2 mt-7 text-2xl font-semibold">Sync to your Tools</p>
+        <p class="z-20">
+          Easily Sync your User Stories, Epics, and Acceptance Criteria to Jira
+          or Azure for production.
+        </p>
+        <div class="elipse-short absolute -left-16 -top-20"></div>
+        <div class="elipse-short absolute -right-28 bottom-12"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section
+  class="container mb-36 flex flex-col items-center justify-center gap-10"
+>
+  <h3 class="text-[32px] font-semibold">Uplift Your Delivery Squad</h3>
+  <div
+    class="flex h-[315px] w-full flex-row items-center justify-center gap-10"
+  >
+    <div
+      class="flex h-full items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="flex h-full w-full flex-col justify-around rounded-3xl bg-background p-5"
+      >
+        <img class="self-start" src="/images/section3-icon1.svg" />
+        <p class="text-xl font-semibold">80% savings on testing expenditure</p>
+        <p class="">
+          Achieve over $70,000 in testing cost savings, automate QA roles within
+          agile squads, and enhance communication among BAs, Developers, and
+          Product Owners for streamlined operations and improved collaboration.
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex h-full items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="flex h-full w-full flex-col justify-around rounded-3xl bg-background p-5"
+      >
+        <img class="self-start" src="/images/section3-icon2.svg" />
+        <p class="text-xl font-semibold">Never lose track of your features</p>
+        <p class="">
+          Streamline documentation across JIRA, Confluence, and git
+          repositories, gain instant product insights, and maintain testing
+          traceability with our comprehensive test script dashboard.
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex h-full items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="flex h-full w-full flex-col justify-around rounded-3xl bg-background p-5"
+      >
+        <img class="self-start" src="/images/section3-icon3.svg" />
+        <p class="text-xl font-semibold">Less meetings more coding</p>
+        <p class="">
+          ReqOPS requirement briefs are detailed to ensure your engineers enjoy
+          working with us. We provide comprehensive user stories, functional UI
+          test cases, CI integration, automated process flow generation, AI
+          workshops, and more.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container mb-64 flex flex-col items-center justify-center">
+  <h3 class="mb-4 text-xl font-medium">Behind Every Great Delivery:</h3>
+  <h3 class="mb-24 text-[32px] font-semibold">The Collective Delivery Squad</h3>
+  <ul class="grid grid-cols-3 grid-rows-2 gap-x-24 gap-y-20">
+    <li class="flex flex-col items-center justify-center">
+      <div class="relative mb-4 flex h-20 w-20">
+        <div
+          class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
+        >
+          <img class="h-[50px] w-[50px]" src="/images/section4-icon1.svg" />
+        </div>
+
+        <div
+          class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+        ></div>
+      </div>
+
+      <p class="mb-4 text-center text-xl font-semibold">Project Coordination</p>
+      <p class="text-center">
+        Ensure efficient planning, execution, and completion of projects,
+        keeping them on schedule and within budget.
       </p>
-    </template>
-  </body>
-</html>
+    </li>
+    <li class="flex flex-col items-center justify-center">
+      <div class="relative mb-4 flex h-20 w-20">
+        <div
+          class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
+        >
+          <img class="h-[50px] w-[50px]" src="/images/section4-icon2.svg" />
+        </div>
+
+        <div
+          class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+        ></div>
+      </div>
+      <p class="mb-4 text-center text-xl font-semibold">Risk Management:</p>
+      <p class="text-center">
+        Proactively identify and mitigate risks to prevent delays and project
+        failures.
+      </p>
+    </li>
+    <li class="flex flex-col items-center justify-center">
+      <div class="relative mb-4 flex h-20 w-20">
+        <div
+          class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
+        >
+          <img class="h-[50px] w-[50px]" src="/images/section4-icon3.svg" />
+        </div>
+
+        <div
+          class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+        ></div>
+      </div>
+      <p class="mb-4 text-center text-xl font-semibold">Communication</p>
+      <p class="text-center">
+        They maintain open communication between teams and stakeholders,
+        ensuring alignment and clarity on project goals.
+      </p>
+    </li>
+    <li class="flex flex-col items-center justify-center">
+      <div class="relative mb-4 flex h-20 w-20">
+        <div
+          class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
+        >
+          <img class="h-[50px] w-[50px]" src="/images/section4-icon4.svg" />
+        </div>
+
+        <div
+          class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+        ></div>
+      </div>
+      <p class="mb-4 text-center text-xl font-semibold">Strategic Alignment</p>
+      <p class="text-center">
+        They ensure projects align with and contribute to the organisation’s
+        strategic objectives.
+      </p>
+    </li>
+    <li class="flex flex-col items-center justify-center">
+      <div class="relative mb-4 flex h-20 w-20">
+        <div
+          class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
+        >
+          <img class="h-[50px] w-[50px]" src="/images/section4-icon5.svg" />
+        </div>
+
+        <div
+          class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+        ></div>
+      </div>
+      <p class="mb-4 text-center text-xl font-semibold">Scope Management</p>
+      <p class="text-center">
+        Changes in project scope or resources, adapting strategies to ensure
+        successful outcomes.
+      </p>
+    </li>
+    <li class="flex flex-col items-center justify-center">
+      <div class="relative mb-4 flex h-20 w-20">
+        <div
+          class="z-10 flex h-full w-full items-center justify-center rounded-3xl bg-background"
+        >
+          <img class="h-[50px] w-[50px]" src="/images/section4-icon6.svg" />
+        </div>
+
+        <div
+          class="absolute -inset-[3px] z-0 rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7]"
+        ></div>
+      </div>
+      <p class="mb-4 text-center text-xl font-semibold">Quality Assurance</p>
+      <p class="text-center">
+        Oversee project standards and quality, ensuring outputs meet or exceed
+        expectations.
+      </p>
+    </li>
+  </ul>
+</section>
+<section
+  class="container mb-36 flex flex-col items-center justify-center gap-16"
+>
+  <h3 class="text-[32px] font-semibold">
+    Transform work practices forever. Our Framework for the future:
+  </h3>
+  <div class="flex flex-col items-center justify-center gap-5">
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
+      >
+        <div class="flex w-1/2 flex-col justify-center gap-3">
+          <p class="text-2xl font-semibold">Requirements Management</p>
+          <p class="text-xl">
+            Track project progress, health, risks, and status. Log feedback, and
+            monitor scope creep to ensure stakeholders are always informed,
+            providing a clear and up-to-date understanding of the project's
+            status for effective decision-making and smoother execution.
+          </p>
+        </div>
+        <div class="relative flex w-1/2">
+          <img class="z-10 h-full w-full" src="/images/section5-frame1.svg" />
+          <div class="elipse-short absolute -bottom-16 -left-8"></div>
+          <div class="elipse-short absolute -right-8 -top-16"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="relative flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
+      >
+        <div class="flex w-1/2 flex-col justify-center gap-3">
+          <p class="text-2xl font-semibold">Automatic BPMN 2.0 Generation</p>
+          <p class="text-xl">
+            Leverage intuitive AI to create Process Maps, User Journeys, and
+            flows automatically. Generate diagrams for each feature
+            effortlessly, eliminating the need for manual layout and
+            streamlining the visualization process.
+          </p>
+        </div>
+        <div class="relative flex w-1/2">
+          <img class="z-10 h-full w-full" src="/images/section5-frame2.svg" />
+          <div class="elipse-short absolute -left-8 -top-16"></div>
+          <div class="elipse-short absolute -bottom-8 -right-8"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background p-12 lg:flex-row"
+      >
+        <div class="flex w-1/2 flex-col justify-center gap-3">
+          <p class="text-2xl font-semibold">Test Automation</p>
+          <p class="text-xl">
+            Simplify the creation of Acceptance Criteria and execution of
+            automated test scripts. Track testing progress and eliminate the
+            need for manual testing, enhancing efficiency and accuracy in the
+            testing process.
+          </p>
+        </div>
+        <div class="relative flex w-1/2">
+          <img class="z-10 h-full w-full" src="/images/section5-frame3.svg" />
+          <div class="elipse-short absolute -bottom-16 -left-8"></div>
+          <div class="elipse-short absolute -right-8 -top-16"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px]"
+    >
+      <div
+        class="flex h-full w-full flex-col-reverse items-center justify-center gap-20 overflow-hidden rounded-3xl bg-background lg:flex-row"
+      >
+        <div class="flex w-1/2 flex-col justify-center gap-3 pb-12 pl-12 pt-12">
+          <p class="text-2xl font-semibold">
+            Integrate into your existing ecosystem
+          </p>
+          <p class="text-xl">
+            Integrate into your existing ecosystem seamlessly by syncing Reqops
+            with tools like Jira, Azure, and Asana. Continue using your
+            preferred tools while Reqops creates and manages your tickets,
+            saving you the time and effort of manual ticket creation.
+          </p>
+        </div>
+        <div class="relative flex h-full w-1/2 justify-end">
+          <img class="z-10 h-full" src="/images/section5-frame4.svg" />
+          <div class="elipse-short absolute -left-8 -top-16"></div>
+          <div class="elipse-short absolute -bottom-8 -right-8"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container mb-64">
+  <div class="flex items-center justify-center gap-5">
+    <div class="w-1/2">
+      <p class="mb-3 text-2xl font-semibold">
+        Try our FREE Process Map Generator
+      </p>
+      <p class="mb-10">
+        Generate Process Flow maps and diagrams for your projects with automated
+        AI generation of User Stories.
+      </p>
+      <button
+        class="h-14 w-[185px] rounded-lg bg-[#5B5AF7] p-2 text-sm font-semibold"
+      >
+        Try it now for free
+      </button>
+    </div>
+    <div class="w-1/2">
+      <img class="h-full" src="/images/section6-frame1.svg" />
+    </div>
+  </div>
+</section>
+<section
+  class="container relative flex flex-col items-center justify-center gap-11"
+>
+  <h3 class="max-w-4xl text-center text-[40px] font-semibold leading-10">
+    Join us in revolutionizing global business growth through AI-driven
+    innovation today
+  </h3>
+  <p class="text-xl font-semibold">Get early access to our free features.</p>
+  <form
+    id="request_early_access_bottom"
+    method="post"
+    class="flex h-14 flex-row items-center justify-center gap-4"
+  >
+    <input
+      class="h-full w-[410px] rounded-lg border border-[#919EAB] bg-transparent p-3 placeholder:text-sm placeholder:text-[#919EAB]"
+      placeholder="Enter your work email"
+    />
+    <button
+      type="submit"
+      class="h-full w-[185px] rounded-lg bg-[#5B5AF7] p-2 text-sm font-semibold"
+    >
+      Request Early access
+    </button>
+  </form>
+  <div class="elipse absolute -top-64 left-[-26rem]"></div>
+  <div class="elipse absolute -top-12 right-[-15rem]"></div>
+</section>
