@@ -49,6 +49,24 @@
       "calt" 1;
   }
 
+  .horizontal-scroll {
+    @apply mx-auto w-full overflow-x-scroll pb-8;
+    scrollbar-color: white rgba(70, 73, 109, 0.15);
+    scrollbar-width: thin;
+  }
+
+  .horizontal-scroll .horizontal-scroll_item-padding.first {
+    @apply ml-6 w-full;
+  }
+
+  .horizontal-scroll .horizontal-scroll_item-padding.last {
+    @apply mr-6 w-full;
+  }
+
+  .layout-grid-row {
+    @apply grid grid-flow-col items-center justify-start gap-5 md:gap-x-7;
+  }
+
   .elipse {
     @apply -z-40 h-[186px] w-[186px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% opacity-70 blur-[63px] md:h-[700px] md:w-[700px];
   }

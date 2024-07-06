@@ -8,7 +8,7 @@
   </head>
   <body>
     <header
-      class="sticky mx-4 my-5 flex flex-row items-center justify-between md:mx-10 md:py-9"
+      class="fixed left-0 right-0 top-0 z-50 flex flex-row items-center justify-between bg-background/5 px-4 py-5 backdrop-blur-sm md:px-10 md:py-9"
     >
       <nav class="flex flex-row items-center gap-9">
         <img src="/images/logo.svg" />
@@ -32,51 +32,50 @@
           <img src="/icons/hamburger.svg" alt="menu" />
         </button>
       </div>
-
+    </header>
+    <div
+      id="menu"
+      class="fixed bottom-0 left-0 right-0 top-0 z-50 hidden bg-black/40"
+    >
       <div
-        id="menu"
-        class="fixed bottom-0 left-0 right-0 top-0 z-50 hidden bg-black/40"
+        class="absolute bottom-0 right-0 top-0 flex w-[350px] translate-x-full flex-col border-l border-[#909090] bg-[#2C2C2C] duration-500 ease-in-out"
       >
-        <div
-          class="absolute bottom-0 right-0 top-0 flex w-[350px] translate-x-full flex-col border-l border-[#909090] bg-[#2C2C2C] duration-500 ease-in-out"
-        >
-          <div class="flex w-full items-center justify-between border-b p-7">
-            <p class="text-xl font-bold">Menu</p>
-            <button id="close-menu-button">
-              <img src="/icons/close.svg" />
-            </button>
-          </div>
-          <div class="flex flex-1 flex-col items-start justify-center">
-            <a href="#" class="flex w-full justify-between px-7 py-4 pt-8">
-              <p class="text-xl font-medium">Features</p>
-              <img src="/icons/arrow-right.svg" />
-            </a>
-            <a href="#" class="flex w-full justify-between px-7 py-4">
-              <p class="text-xl font-medium">Benefits</p>
-              <img src="/icons/arrow-right.svg" />
-            </a>
-            <a href="#" class="flex w-full justify-between px-7 py-4">
-              <p class="text-xl font-medium">Free Generator</p>
-              <img src="/icons/arrow-right.svg" />
-            </a>
-            <div
-              class="flex w-full flex-1 flex-col items-center justify-end gap-5 p-7 pb-10"
+        <div class="flex w-full items-center justify-between border-b p-7">
+          <p class="text-xl font-bold">Menu</p>
+          <button id="close-menu-button">
+            <img src="/icons/close.svg" />
+          </button>
+        </div>
+        <div class="flex flex-1 flex-col items-start justify-center">
+          <a href="#" class="flex w-full justify-between px-7 py-4 pt-8">
+            <p class="text-xl font-medium">Features</p>
+            <img src="/icons/arrow-right.svg" />
+          </a>
+          <a href="#" class="flex w-full justify-between px-7 py-4">
+            <p class="text-xl font-medium">Benefits</p>
+            <img src="/icons/arrow-right.svg" />
+          </a>
+          <a href="#" class="flex w-full justify-between px-7 py-4">
+            <p class="text-xl font-medium">Free Generator</p>
+            <img src="/icons/arrow-right.svg" />
+          </a>
+          <div
+            class="flex w-full flex-1 flex-col items-center justify-end gap-5 p-7 pb-10"
+          >
+            <a class="hover:underline" href="/member">Already a member?</a>
+            <a
+              href="#"
+              class="w-full rounded-lg border border-white px-[25px] py-[9px] text-center"
             >
-              <a class="hover:underline" href="/member">Already a member?</a>
-              <a
-                href="#"
-                class="w-full rounded-lg border border-white px-[25px] py-[9px] text-center"
-              >
-                Log in
-              </a>
-            </div>
+              Log in
+            </a>
           </div>
         </div>
       </div>
-    </header>
-    <main class="mb:pb-44 pb-20 pt-14 md:overflow-hidden md:pt-36">
+    </div>
+    <main class="mb:pb-44 overflow-hidden pb-20 pt-24 md:pt-36">
       <section
-        class="container relative mb-36 flex flex-col items-center justify-center gap-7 px-5 md:gap-12"
+        class="mb:mb-36 container relative mb-10 flex flex-col items-center justify-center gap-7 px-5 md:gap-12"
       >
         <h1
           class="text-center text-[32px] font-bold leading-[39px] md:text-[64px] md:leading-[80px]"
@@ -98,7 +97,7 @@
           class="flex h-10 flex-row items-center justify-center gap-4 md:h-14"
         >
           <input
-            class="h-full w-[171px] rounded-lg border border-[#919EAB] bg-transparent p-2 placeholder:text-[12px] placeholder:text-[#919EAB] md:w-[410px] md:p-3 placeholder:md:text-sm"
+            class="h-full w-[171px] rounded-lg border border-[#919EAB] bg-transparent p-2 placeholder:text-xs placeholder:text-[#919EAB] md:w-[410px] md:p-3 placeholder:md:text-sm"
             name="email"
             type="text"
             id="test"
@@ -107,7 +106,7 @@
           />
           <button
             type="submit"
-            class="h-full w-[145px] rounded-lg bg-[#5B5AF7] p-0 text-[12px] font-semibold md:w-[185px] md:p-2 md:text-sm"
+            class="h-full w-[145px] rounded-lg bg-[#5B5AF7] p-0 text-xs font-semibold md:w-[185px] md:p-2 md:text-sm"
           >
             Request Early access
           </button>
@@ -118,6 +117,38 @@
         <div
           class="elipse absolute -left-9 top-28 md:left-[-26rem] md:top-64"
         ></div>
+      </section>
+      <section
+        class="mb:mb-36 container flex flex-col items-center justify-center gap-5 p-0 md:gap-16"
+      >
+        <p class="px-6 text-center text-xs font-semibold md:text-xl">
+          Say goodbye to manual requirement building. Let Reqops speed things
+          up.
+        </p>
+        <div class="horizontal-scroll">
+          <div class="layout-grid-row">
+            <div class="horizontal-scroll_item-padding first">
+              <div
+                class="flex h-[265px] w-[223px] items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:h-[444px] md:w-[373px]"
+              >
+                <img class="rounded-3xl" src="/images/section1-frame1.svg" />
+              </div>
+            </div>
+
+            <div
+              class="flex h-[265px] w-[223px] items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:h-[444px] md:w-[373px]"
+            >
+              <img class="rounded-3xl" src="/images/section1-frame2.svg" />
+            </div>
+            <div class="horizontal-scroll_item-padding last">
+              <div
+                class="flex h-[265px] w-[223px] items-center justify-center rounded-3xl bg-gradient-to-br from-[#F1B2A8] via-[#EC57A8] to-[#5B5AF7] p-[3px] md:h-[444px] md:w-[373px]"
+              >
+                <img class="rounded-3xl" src="/images/section1-frame3.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer
