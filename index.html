@@ -7,7 +7,9 @@
     <script type="module" src="main.js" defer></script>
   </head>
   <body>
-    <header class="mx-4 my-5 flex flex-row justify-between md:mx-10 md:py-9">
+    <header
+      class="mx-4 my-5 flex flex-row items-center justify-between md:mx-10 md:py-9"
+    >
       <nav class="flex flex-row items-center gap-9">
         <img src="/images/logo.svg" />
         <ul class="hidden flex-row items-center justify-center gap-12 md:flex">
@@ -74,10 +76,10 @@
     </header>
     <main class="overflow-hidden pb-44 pt-36"></main>
     <footer
-      class="flex flex-row justify-between border-t border-white bg-[#333333] p-10 text-white"
+      class="flex flex-row items-center justify-between border-t border-white bg-[#333333] p-5 text-white md:p-10"
     >
-      <img src="/images/logo.svg" />
-      <div class="flex flex-row items-center gap-7">
+      <img class="h-5 md:h-full" src="/images/logo.svg" />
+      <div class="hidden flex-row items-center gap-7 md:flex">
         <a class="hover:underline" href="#">Already a member?</a>
         <button class="rounded-lg border border-white px-[25px] py-[9px]">
           Log in
