@@ -18,13 +18,16 @@
       </nav>
       <div class="hidden flex-row items-center gap-7 md:flex">
         <a class="hover:underline" href="/member">Already a member?</a>
-        <button class="rounded-lg border border-white px-[25px] py-[9px]">
+        <a
+          href="#"
+          class="rounded-lg border border-white px-[25px] py-[9px] text-center"
+        >
           Log in
-        </button>
+        </a>
       </div>
       <div class="flex w-full justify-end md:hidden">
         <button id="menu-button">
-          <img src="/images/hamburger.svg" alt="menu" />
+          <img src="/icons/hamburger.svg" alt="menu" />
         </button>
       </div>
 
@@ -33,10 +36,38 @@
         class="fixed bottom-0 left-0 right-0 top-0 hidden bg-black/40"
       >
         <div
-          class="absolute bottom-0 right-0 top-0 w-[350px] border-l border-[#909090] bg-[#2C2C2C]"
+          class="absolute bottom-0 right-0 top-0 flex w-[350px] translate-x-full flex-col border-l border-[#909090] bg-[#2C2C2C] duration-500 ease-in-out"
         >
-          <div class="flex w-full items-center justify-between border-b">
-            <p>Menu</p>
+          <div class="flex w-full items-center justify-between border-b p-7">
+            <p class="text-xl font-bold">Menu</p>
+            <button id="close-menu-button">
+              <img src="/icons/close.svg" />
+            </button>
+          </div>
+          <div class="flex flex-1 flex-col items-start justify-center">
+            <a href="#" class="flex w-full justify-between px-7 py-4 pt-8">
+              <p class="text-xl font-medium">Features</p>
+              <img src="/icons/arrow-right.svg" />
+            </a>
+            <a href="#" class="flex w-full justify-between px-7 py-4">
+              <p class="text-xl font-medium">Benefits</p>
+              <img src="/icons/arrow-right.svg" />
+            </a>
+            <a href="#" class="flex w-full justify-between px-7 py-4">
+              <p class="text-xl font-medium">Free Generator</p>
+              <img src="/icons/arrow-right.svg" />
+            </a>
+            <div
+              class="flex w-full flex-1 flex-col items-center justify-end gap-5 p-7 pb-10"
+            >
+              <a class="hover:underline" href="/member">Already a member?</a>
+              <a
+                href="#"
+                class="w-full rounded-lg border border-white px-[25px] py-[9px] text-center"
+              >
+                Log in
+              </a>
+            </div>
           </div>
         </div>
       </div>
