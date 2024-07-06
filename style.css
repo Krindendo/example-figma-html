@@ -50,17 +50,17 @@
   }
 
   .horizontal-scroll {
-    @apply mx-auto w-full overflow-x-scroll pb-8;
+    @apply mx-auto w-full overflow-x-auto pb-8;
     scrollbar-color: white rgba(70, 73, 109, 0.15);
     scrollbar-width: thin;
   }
 
   .horizontal-scroll .horizontal-scroll_item-padding.first {
-    @apply ml-6 w-full;
+    @apply ml-6 w-full md:ml-0;
   }
 
   .horizontal-scroll .horizontal-scroll_item-padding.last {
-    @apply mr-6 w-full;
+    @apply mr-6 w-full md:mr-0;
   }
 
   .layout-grid-row {
