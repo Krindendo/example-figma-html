@@ -13,7 +13,7 @@ export default {
         "2xl": "2rem",
       },
       screens: {
-        ...screens,
+        xl: "1280px",
         "2xl": "1400px",
       },
     },
