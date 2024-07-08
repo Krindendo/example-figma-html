@@ -68,10 +68,10 @@
   }
 
   .elipse {
-    @apply -z-40 h-[186px] w-[186px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% opacity-70 blur-[30px] lg:h-[700px] lg:w-[700px] lg:blur-[63px];
+    @apply -z-40 h-[186px] w-[186px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% opacity-70 blur-[30px] md:h-[400px] md:w-[400px] md:blur-[45px] lg:h-[700px] lg:w-[700px] lg:blur-[63px];
   }
   .elipse-short {
-    @apply z-0 h-[150px] w-[140px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% blur-[35px] lg:h-[270px] lg:w-[270px];
+    @apply z-0 h-[150px] w-[140px] rounded-full bg-gradient-to-br from-[#F1B2A8] from-10% via-[#EC57A8] via-50% to-[#5B5AF7] to-90% blur-[35px] md:h-[200px] md:w-[200px] lg:h-[270px] lg:w-[270px];
   }
 
   .card {
