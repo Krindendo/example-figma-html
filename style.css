@@ -79,7 +79,7 @@
   }
 
   .card_image {
-    @apply h-[144px] w-full object-cover;
+    @apply h-[144px] w-full object-cover lg:h-full lg:object-contain;
   }
 
   .card_title {
@@ -91,6 +91,6 @@
   }
 
   .section-2-wrapper {
-    @apply h-[265px] lg:h-[444px];
+    @apply h-[265px] w-[342px] lg:h-[444px] lg:w-full;
   }
 }
